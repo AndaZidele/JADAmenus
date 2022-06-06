@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kateg" representedClassName="Kateg" syncable="YES" codeGenerationType="class">
+        <attribute name="nosa" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Klasite" representedClassName="Klasite" syncable="YES" codeGenerationType="class">
+        <attribute name="nosa" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserEnt" representedClassName="UserEnt" syncable="YES" codeGenerationType="class">
+        <attribute name="masiv" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="nosa" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="nosa" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="UserEnt" positionX="-54" positionY="0" width="128" height="73"/>
+        <element name="UserEntity" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="Kateg" positionX="-54" positionY="9" width="128" height="44"/>
+        <element name="Klasite" positionX="-45" positionY="18" width="128" height="44"/>
+    </elements>
+</model>
